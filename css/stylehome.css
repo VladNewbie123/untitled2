@@ -1,0 +1,63 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 25px 0;
+    max-width: calc( 360px * 3 + 50px * 3);
+    text-align: justify;
+}
+
+.grid>.box {
+    width: 360px;
+    height: 230px;
+    overflow-y: hidden;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.10);
+    margin: auto;
+}
+
+.box:nth-of-type(1) {
+    background: url(../images/1660784884_9-kartinkin-net-p-fon-dlya-produktovogo-magazina-krasivo-10.jpg);
+}
+.box:nth-of-type(2) {
+    background-image: url(../images/0288934001643361419.jpg);
+}
+.box:nth-of-type(3) {
+    background-image: url(../images/Kuhonnyj-ugolok-Pekhotin-Cezar-1100x800-product_popup.jpg);
+}
+
+.images {
+    height: fit-content;
+    margin-top: 150px;
+    background-image: url(../images/22.png);
+    transition: all 2s ease;
+    padding: 0px 10px;
+}
+
+.box:hover .images {
+    margin-top: 50px;
+}
+
+@media (max-width: 1240px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+h2{
+    margin-top: 28px;
+}

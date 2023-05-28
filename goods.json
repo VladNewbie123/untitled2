@@ -1,0 +1,32 @@
+{
+  "яблок" : {
+    "name": "Яблука",
+    "cost": 12,
+    "image": "images/apple.png"
+  },
+  "лимонів" : {
+    "name": "Лимон",
+    "cost": 16,
+    "image": "images/lemon.png"
+  },
+  "полуниці" : {
+    "name": "Полуниця",
+    "cost": 22,
+    "image": "images/strawberry.png"
+  },
+  "бананів" : {
+    "name": "Банани",
+    "cost": 25,
+    "image": "images/Банан.png"
+  },
+  "моркви" : {
+    "name": "Морківка",
+    "cost": 19,
+    "image": "images/morkov-muleta-f1-muleta-f1-clause.jpg"
+  },
+  "картоплі" : {
+    "name": "Картопля",
+    "cost": 9,
+    "image": "images/images (2).jpg"
+  }
+}

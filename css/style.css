@@ -1,0 +1,183 @@
+html {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(247, 248, 249, 0.73);
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.single-goods {
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin: 15px;
+    float: left;
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.20);
+}
+
+.single-goods button {
+    display: block;
+    margin: 20px auto;
+}
+
+.mini {
+    background-color: white;
+    width: 337px;
+    height: 298px;
+    overflow-y: hidden;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.30);
+    padding-left: 10px;
+    padding-top: 10px;
+    margin: 50px;
+    font-size: 23px;
+    border: 1px solid black;
+    float: left;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+#goods {
+    margin-top: 22px;
+    padding-left: 50px;
+}
+
+.a1 {
+    text-decoration: none;
+    color: black;
+}
+
+#textp {
+    position: relative;
+    cursor: pointer;
+    line-height: 1;
+    /*задаём высоту строки*/
+    margin-top: 0;
+
+}
+
+#textp:after {
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    /*изменить на right:0;, чтобы изменить направление подчёркивания */
+    width: 0;
+    /*задаём длинну линии до наведения курсора*/
+    height: 2px;
+    /*задаём ширину линии*/
+    background-color: rgba(47, 143, 239, 0.78);
+    /*задаём цвет линии*/
+    content: "";
+    transition: width 0.3s ease-out;
+    /*задаём время анимации*/
+}
+
+#textp:hover:after,
+#textp:focus:after {
+    width: 100%;
+    /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+}
+
+.text1 {
+    height: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    column-gap: 0px;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 30px;
+    margin-top: -6px;
+    align-items: center;
+}
+
+#content1 {
+    background-color: white;
+    width: 40%;
+    height: 500px;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.20);
+    float: left;
+    margin: 50px;
+    text-align: center;
+    min-width: 320px;
+}
+
+#content2 {
+    background-color: white;
+    width: 40%;
+    height: auto;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.20);
+    float: right;
+    margin: 50px;
+    padding: 10px;
+    margin-top: 0;
+    min-width: 320px;
+    text-align: center;
+}
+
+input {
+    width: 80%;
+    height: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+form {
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+@media (min-width: 0px) and (max-width: 1140px) {
+    #content2 {
+        float: left;
+        margin-left: 28%;
+    }
+
+    #content1 {
+        margin-left: 28%;
+    }
+}
+
+.button1 {
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+button{
+    transition: .5s;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+button:hover {
+    background-color: #1aabc5;
+}
+
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <title>Корзина</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<h1>Ваш кошик</h1>
+<div class="text1">
+    <p id='textp'><a href="index.html" class="a1">Натиснути, щоб повернутися до магазину</a></p>
+</div>
+<br>
+<div id="wrapper">
+    <div id="content1">
+        <h2>Загальна сума до сплати:</h2>
+        <form>
+            <label for="name">Введіть ім'я:</label><br>
+            <input type="text" id="name">
+        </form>
+        <form>
+            <label for="email">Введіть електронну пошту:</label><br>
+            <input type="text" id="email">
+        </form>
+        <form>
+            <label for="phone">Введіть номер телефона:</label><br>
+            <input type="text" id="phone">
+        </form>
+        <form>
+            <label for="address">Введіть адресу:</label><br>
+            <input type="text" id="address">
+        </form>
+        <form>
+            <button type="button">Купити</button>
+        </form>
+    </div>
+    <div id="content2">
+        <h2>Вибрані товари:</h2>
+        <hr>
+        <div id="my-cart"></div>
+        <hr>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<script src="js/cart.js"></script>
+</body>
+</html>
